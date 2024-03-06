@@ -1,0 +1,141 @@
+/* Header Section1 */
+/* @media only screen and (min-width:400px) and (max-width:700px){
+    .header_section1 div{
+        flex:1
+    }
+    .header_section1 nav{
+        flex:1
+    }
+} */
+/* @media only screen and (min-width:700px) and (max-width:1200px){
+    .header_section1 div{
+        flex:1;
+    }
+    .header_section1 nav{
+        flex:1;
+    }
+} */
+@media only screen and (min-width:1000px) and (max-width:1200px){
+    .header_section1 div{
+        width:50%;
+    }
+    .header_section1 nav{
+        width:50%;
+    }
+}
+
+/* Header Section2 */
+/* @media only screen and (min-width:0) and (max-width:500px){
+    .header_section1 div:first-child{
+        display: block;
+    }
+    .header_section1 div:last-child,.header_section1 nav{
+        display: none;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:1300px){
+    .header_section1 div:first-child,.header_section1 nav{
+        display: block;
+    }
+    .header_section1 div:last-child{
+        display: none;
+    }
+}
+@media only screen and (min-width:1300px) and (max-width:2000px){
+    .header_section1 div,.header_section1 nav{
+        display: block;
+    }
+} */
+
+/* Middle Section1*/
+/* @media only screen and (min-width:0px) and (max-width:3000px){
+    .middle_section1{
+        display: block;
+    }
+} */
+
+/* Middle Section3 Header */
+/* @media only screen and (min-width:0) and (max-width:500px){
+    .middle_section3_heder {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:500px) and (max-width:1200px){
+    .middle_section3_header {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:3000px){
+    .middle_section3_header {
+        grid-template-columns: repeat(5, 1fr);
+    }
+} */
+
+/* Middle Section2 and Middle Section4 */
+@media only screen and (min-width:0) and (max-width:500px){
+    .middle_section2,.middle_section4 {
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:500px) and (max-width:1200px){
+    .middle_section2,.middle_section4 {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (min-width:1200px) and (max-width:3000px){
+    .middle_section2,.middle_section4 {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Middle Section5 Middle Section6 Middle Section7 Middle Section Middle Section9*/
+@media only screen and (min-width:0px) and (max-width:500px){
+    .middle_section5,.middle_section6,.middle_section7,.middle_section8,.middle_section9{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:2000px){
+    .middle_section5,.middle_section6,.middle_section7,.middle_section8,.middle_section9{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+/* Footer Section1 */
+@media only screen and (min-width:0px) and (max-width:500px){
+    .footer_section1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr)
+    }
+}
+@media only screen and (min-width:500px) and (max-width:1000px){
+    .footer_section1{
+        display: grid;
+        grid-template-columns: repeat(3,1fr)
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:2000px){
+    .footer_section1{
+        display: grid;
+        grid-template-columns: repeat(4,1fr)
+    }
+}
+
+/* Footer Section2 */
+@media only screen and (min-width:0px) and (max-width:500px){
+    .footer_section1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:1000px){
+    .footer_section1{
+        display: flex;
+        flex-direction: row;
+    }
+}
